@@ -1,0 +1,207 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .............start section....... */
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-color: #10403B ;
+}
+.main .body .child {
+position: relative;
+}
+
+.main .body .child .left {
+    color: #8AA6A3;
+letter-spacing: 8px;
+    position: absolute;
+    right: -20%;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 300px;
+
+    /* .....animation */
+    animation-name: startleft;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+@keyframes startleft {
+    25% {
+        right: 50%;
+    }
+
+    50% {
+        right: 40%;  }
+
+
+    100% {
+        right: 40%; }
+}
+
+/* ..........stsrt media....................................... */
+/* 786px to 1040px */
+@media(max-width :1040px) {
+
+}
+
+/* 600px to 786  tablet */
+@media(max-width :768px) {
+    .main .body .child .left {
+        font-size: 60px;
+        padding-top: 260px;
+        right: -40%;
+    }
+    @keyframes startleft {
+        25% {
+            right: 41%;
+        }
+    
+        50% {
+            right: 38%;  }
+    
+    
+        100% {
+            right: 38%; }
+    }
+
+}
+
+/* 0px to 600px mobile */
+@media(max-width :600px) {
+    .main .body .child .left {
+        font-size: 50px;
+        padding-top: 310px;
+
+        right: -55%;
+    }
+    @keyframes startleft {
+        25% {
+            right: 30%;
+        }
+    
+        50% {
+            right: 22%;  }
+    
+    
+        100% {
+            right: 22%; }
+    }
+}
+
+/* ..........End media....................................... */
+
+.main .left:hover {
+    letter-spacing: 12px; 
+    text-shadow: 1px 2px 3px #127369;
+    font-size: 70;
+}
+
+.main .body .child .right {
+    position: absolute;
+    left: 35%;
+    top: 400px;
+    color: #8AA6A3;
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    padding: 10px;
+
+        /* .....animation */
+        /* animation-name: startright;
+        animation-duration: 5s;
+        animation-delay: 2s; */
+    }
+    /* 786px to 1040px */
+@media(max-width :1040px) {
+
+}
+
+/* 600px to 786  tablet */
+@media(max-width :768px) {
+    .main .body .child .right{
+        font-size: 50px;
+        letter-spacing: 5px;
+        padding: 8px;
+        left: 25%;
+        top: 350px;
+    }
+
+}
+
+/* 0px to 600px mobile */
+@media(max-width :600px) {
+    .main .body .child .right{
+        font-size: 40px;
+        letter-spacing: 5px;
+        padding: 8px;
+        left: 20%;
+        top: 370px;
+    }
+}
+
+    /* @keyframes startright {
+        25% {
+            left: 50%;
+        }
+    
+        50% {
+            left: 35%; 
+        }
+    
+    
+        100% {
+            left: 35%; 
+        }
+    } */
+
+.main .right:hover {
+    letter-spacing: 15px; 
+    text-shadow: 1px 2px 3px #127369;
+    font-size: 80; 
+}
+.main .btn {
+    text-align: center;
+}
+.main .body .btn button {
+    width: 150px;
+    padding: 10px;
+    margin-top: 560px;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px #8ab4b0e3;
+    background-color: #127369;
+    border-radius: 10px;
+    border-color: #127369;
+    
+}
+/* 786px to 1040px */
+@media(max-width :1040px) {
+    
+}
+
+/* 600px to 786  tablet */
+@media(max-width :768px) {
+    .main .body .btn button {
+        margin-top: 480px;
+        padding: 8px;
+
+    }
+
+}
+
+/* 0px to 600px mobile */
+@media(max-width :600px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+.main .btn button a {
+    text-decoration:none;
+    color: #BFBFBF;
+}

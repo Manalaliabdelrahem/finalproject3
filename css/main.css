@@ -1,0 +1,246 @@
+body {
+    background-color: #10403B;
+}
+
+h1 {
+    color: #127369;
+    text-shadow: 2px 1px 1px #8AA6A3;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 60px 10px;
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+
+/* 786px to 1040px */
+@media(max-width :1040px) {
+    
+}
+
+/* 600px to 786  tablet */
+@media(max-width :768px) {
+    h1 {
+        font-size: 40px;
+    }
+
+}
+
+/* 0px to 600px mobile */
+@media(max-width :600px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
+.card {
+    background-color: rgba(227, 221, 221, 0.53);
+    width: 50%;
+    height: 180px;
+    border-radius: 5px;
+    margin-left: 25%;
+    padding: 20px;
+}
+
+.card .child h5 {
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+    color: rgb(244, 244, 244);
+}
+
+.card .child input {
+    width: 95%;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: #127369;
+    background-color: azure;
+    padding: 5px;
+}
+
+.card .child input:hover {
+    border-color: blanchedalmond;
+}
+
+.card .child button {
+    width: 97%;
+    height: 35px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: #127369;
+    background-color:#127369;
+    color: aliceblue;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.card .child button:hover {
+    width: 99%;
+    height: 40px;
+    color: rgb(250, 57, 57);
+    background-color: rgb(249, 247, 187);
+    border-color: brown;
+    font-size: 25px;
+
+}
+
+/* 786px to 1040px */
+@media(max-width :1040px) {}
+
+/* 600px to 786  tablet */
+@media(max-width :768px) {
+    .card {
+        width: 55%;
+        height: 160px;
+        margin-left: 20%;
+    }
+
+}
+
+/* 0px to 600px mobile */
+@media(max-width :600px) {
+    .card {
+        width: 55%;
+        height: 120px;
+        margin-left: 20%;
+    }
+
+    .card .child h5 {
+        font-size: 15px;
+        margin: 5px;
+    }
+
+    .card .child input {
+        width: 93%;
+        height: 20px;
+        margin: 5px;
+    }
+
+    .card .child button {
+        width: 99%;
+        height: 30px;
+        margin: 5px;
+        border-radius: 10px;
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .card .child button:hover {
+        width: 100%;
+        height: 35px;
+        font-size: 18px;
+    }
+}
+
+.card2 {
+    background-color: rgba(227, 221, 221, 0.53);
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    margin-left: 25%;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.card2 .child2 .no {
+    width: 95%;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: aqua;
+    background-color: azure;
+    padding: 5px;
+    position: relative;
+}
+
+.card2 .child2 {
+    position: relative;
+}
+
+.btn {
+    position: absolute;
+    bottom: 5px;
+    right: 25px;
+    z-index: 1;
+    background-color: #127369;
+    border-radius: 5px;
+    border-color: #127369;
+    padding: 5px;
+    width: 75px;
+    font-size: 15px;
+    color: blanchedalmond;
+}
+
+.card2 .child2 .btn button:hover {
+    width: 78px;
+    font-size: 17px;
+    color: rgb(249, 242, 172);
+    border-color: rgb(198, 55, 55);
+    background-color: rgb(198, 55, 55);
+
+}
+.card2 .no {
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #127369;
+    text-shadow: 1px 1px 2px #BFBFBF;
+   
+}
+
+/* 786px to 1040px */
+@media(max-width :1040px) {}
+
+/* 600px to 786  tablet */
+@media(max-width :768px) {
+    .card2 {
+        width: 55%;
+        height: auto;
+        margin-left: 20%;
+    }
+
+    .btn {
+        right: 10px;
+        padding: 3px;
+        width: 70px;
+        font-size: 15px;
+    }
+
+    .btn:hover {
+        width: 65px;
+        font-size: 15px;
+    }
+}
+
+/* 0px to 600px mobile */
+@media(max-width :600px) {
+    .card2 {
+        width: 55%;
+        height: auto;
+        margin-left: 20%;
+    }
+
+    .card2 .child2 .no {
+        width: 93%;
+        height: 20px;
+        margin: 5px;
+    }
+
+    .btn {
+        bottom: 3px;
+        right: 8px;
+        padding: 3px;
+        width: 60px;
+        font-size: 12px;
+    }
+
+    .btn:hover {
+        width: 65px;
+        font-size: 15px;
+
+    }
+}
+
+.none {
+    display: none;
+}
